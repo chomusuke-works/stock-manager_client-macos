@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		756363C42D7382E500C42A03 /* StockManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756363BD2D7382E500C42A03 /* StockManagerApp.swift */; };
+		756363C42D7382E500C42A03 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756363BD2D7382E500C42A03 /* App.swift */; };
 		756363C62D7382E500C42A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756363BB2D7382E500C42A03 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +31,10 @@
 /* Begin PBXFileReference section */
 		756363BB2D7382E500C42A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756363BC2D7382E500C42A03 /* StockManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StockManager.entitlements; sourceTree = "<group>"; };
-		756363BD2D7382E500C42A03 /* StockManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockManagerApp.swift; sourceTree = "<group>"; };
-		756363DB2D73832100C42A03 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75FECC992D4A7F2C00F13120 /* StockManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerTests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app/Contents/PlugIns/StockManagerTests.xctest"; sourceTree = "<absolute>"; };
-		75FECCA32D4A7F2C00F13120 /* StockManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerUITests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManagerUITests-Runner.app/Contents/PlugIns/StockManagerUITests.xctest"; sourceTree = "<absolute>"; };
+		756363BD2D7382E500C42A03 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		756363DC2D73856200C42A03 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StockManager.app; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app"; sourceTree = "<absolute>"; };
+		756363DD2D73856200C42A03 /* StockManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerTests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app/Contents/PlugIns/StockManagerTests.xctest"; sourceTree = "<absolute>"; };
+		756363DE2D73856200C42A03 /* StockManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerUITests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManagerUITests-Runner.app/Contents/PlugIns/StockManagerUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -115,8 +115,7 @@
 				756363D12D7382ED00C42A03 /* Views */,
 				756363BB2D7382E500C42A03 /* Assets.xcassets */,
 				756363BC2D7382E500C42A03 /* StockManager.entitlements */,
-				756363BD2D7382E500C42A03 /* StockManagerApp.swift */,
-				756363DB2D73832100C42A03 /* StockManager.app */,
+				756363BD2D7382E500C42A03 /* App.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +141,7 @@
 			packageProductDependencies = (
 			);
 			productName = StockManager;
-			productReference = 756363DB2D73832100C42A03 /* StockManager.app */;
+			productReference = 756363DC2D73856200C42A03 /* StockManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 		75FECC982D4A7F2C00F13120 /* StockManagerTests */ = {
@@ -162,7 +161,7 @@
 			packageProductDependencies = (
 			);
 			productName = StockManagerTests;
-			productReference = 75FECC992D4A7F2C00F13120 /* StockManagerTests.xctest */;
+			productReference = 756363DD2D73856200C42A03 /* StockManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		75FECCA22D4A7F2C00F13120 /* StockManagerUITests */ = {
@@ -182,7 +181,7 @@
 			packageProductDependencies = (
 			);
 			productName = StockManagerUITests;
-			productReference = 75FECCA32D4A7F2C00F13120 /* StockManagerUITests.xctest */;
+			productReference = 756363DE2D73856200C42A03 /* StockManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75FECC812D4A7F2A00F13120 /* Build configuration list for PBXProject "StockManager" */;
+			buildConfigurationList = 75FECC812D4A7F2A00F13120 /* Build configuration list for PBXProject "client-macos" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -259,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				756363C42D7382E500C42A03 /* StockManagerApp.swift in Sources */,
+				756363C42D7382E500C42A03 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75FECC812D4A7F2A00F13120 /* Build configuration list for PBXProject "StockManager" */ = {
+		75FECC812D4A7F2A00F13120 /* Build configuration list for PBXProject "client-macos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75FECCAB2D4A7F2C00F13120 /* Debug */,
