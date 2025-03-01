@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		756363C42D7382E500C42A03 /* StockManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756363BD2D7382E500C42A03 /* StockManagerApp.swift */; };
+		756363C62D7382E500C42A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756363BB2D7382E500C42A03 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		75FECC9A2D4A7F2C00F13120 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,15 +29,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75FECC862D4A7F2A00F13120 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75FECC992D4A7F2C00F13120 /* StockManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75FECCA32D4A7F2C00F13120 /* StockManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		756363BB2D7382E500C42A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756363BC2D7382E500C42A03 /* StockManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StockManager.entitlements; sourceTree = "<group>"; };
+		756363BD2D7382E500C42A03 /* StockManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockManagerApp.swift; sourceTree = "<group>"; };
+		756363DB2D73832100C42A03 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FECC992D4A7F2C00F13120 /* StockManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerTests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app/Contents/PlugIns/StockManagerTests.xctest"; sourceTree = "<absolute>"; };
+		75FECCA32D4A7F2C00F13120 /* StockManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerUITests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManagerUITests-Runner.app/Contents/PlugIns/StockManagerUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		756363D92D7382ED00C42A03 /* Exceptions for "Model" folder in "StockManager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Controllers/ProductController.swift,
+				Product.swift,
+				ProductExpiry.swift,
+				SMError.swift,
+			);
+			target = 75FECC852D4A7F2A00F13120 /* StockManager */;
+		};
+		756363DA2D7382ED00C42A03 /* Exceptions for "Views" folder in "StockManager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				ExpiryDateView.swift,
+			);
+			target = 75FECC852D4A7F2A00F13120 /* StockManager */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		75FECC882D4A7F2A00F13120 /* StockManager */ = {
+		756363CC2D7382ED00C42A03 /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StockManager;
+			exceptions = (
+				756363D92D7382ED00C42A03 /* Exceptions for "Model" folder in "StockManager" target */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		756363CE2D7382ED00C42A03 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		756363D12D7382ED00C42A03 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				756363DA2D7382ED00C42A03 /* Exceptions for "Views" folder in "StockManager" target */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -65,19 +110,14 @@
 		75FECC7D2D4A7F2A00F13120 = {
 			isa = PBXGroup;
 			children = (
-				75FECC882D4A7F2A00F13120 /* StockManager */,
-				75FECC872D4A7F2A00F13120 /* Products */,
+				756363CC2D7382ED00C42A03 /* Model */,
+				756363CE2D7382ED00C42A03 /* Preview Content */,
+				756363D12D7382ED00C42A03 /* Views */,
+				756363BB2D7382E500C42A03 /* Assets.xcassets */,
+				756363BC2D7382E500C42A03 /* StockManager.entitlements */,
+				756363BD2D7382E500C42A03 /* StockManagerApp.swift */,
+				756363DB2D73832100C42A03 /* StockManager.app */,
 			);
-			sourceTree = "<group>";
-		};
-		75FECC872D4A7F2A00F13120 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75FECC862D4A7F2A00F13120 /* StockManager.app */,
-				75FECC992D4A7F2C00F13120 /* StockManagerTests.xctest */,
-				75FECCA32D4A7F2C00F13120 /* StockManagerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,13 +136,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				75FECC882D4A7F2A00F13120 /* StockManager */,
+				756363CE2D7382ED00C42A03 /* Preview Content */,
 			);
 			name = StockManager;
 			packageProductDependencies = (
 			);
 			productName = StockManager;
-			productReference = 75FECC862D4A7F2A00F13120 /* StockManager.app */;
+			productReference = 756363DB2D73832100C42A03 /* StockManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 		75FECC982D4A7F2C00F13120 /* StockManagerTests */ = {
@@ -178,7 +218,7 @@
 			mainGroup = 75FECC7D2D4A7F2A00F13120;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 75FECC872D4A7F2A00F13120 /* Products */;
+			productRefGroup = 75FECC7D2D4A7F2A00F13120;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -194,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756363C62D7382E500C42A03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756363C42D7382E500C42A03 /* StockManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,11 +416,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StockManager/StockManager.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StockManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StockManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = MMD4KGB9S4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -404,12 +446,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StockManager/StockManager.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StockManager.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StockManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = MMD4KGB9S4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
