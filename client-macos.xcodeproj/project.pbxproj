@@ -11,30 +11,11 @@
 		756363C62D7382E500C42A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756363BB2D7382E500C42A03 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		75FECC9A2D4A7F2C00F13120 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75FECC7E2D4A7F2A00F13120 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75FECC852D4A7F2A00F13120;
-			remoteInfo = StockManager;
-		};
-		75FECCA42D4A7F2C00F13120 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75FECC7E2D4A7F2A00F13120 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75FECC852D4A7F2A00F13120;
-			remoteInfo = StockManager;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		756363BB2D7382E500C42A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756363BC2D7382E500C42A03 /* StockManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StockManager.entitlements; sourceTree = "<group>"; };
 		756363BD2D7382E500C42A03 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		756363DC2D73856200C42A03 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StockManager.app; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app"; sourceTree = "<absolute>"; };
-		756363DD2D73856200C42A03 /* StockManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerTests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app/Contents/PlugIns/StockManagerTests.xctest"; sourceTree = "<absolute>"; };
-		756363DE2D73856200C42A03 /* StockManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StockManagerUITests.xctest; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManagerUITests-Runner.app/Contents/PlugIns/StockManagerUITests.xctest"; sourceTree = "<absolute>"; };
+		756363EF2D73873000C42A03 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StockManager.app; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-macos/build/Debug/StockManager.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -90,20 +71,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75FECC962D4A7F2C00F13120 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75FECCA02D4A7F2C00F13120 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -141,48 +108,8 @@
 			packageProductDependencies = (
 			);
 			productName = StockManager;
-			productReference = 756363DC2D73856200C42A03 /* StockManager.app */;
+			productReference = 756363EF2D73873000C42A03 /* StockManager.app */;
 			productType = "com.apple.product-type.application";
-		};
-		75FECC982D4A7F2C00F13120 /* StockManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75FECCB02D4A7F2C00F13120 /* Build configuration list for PBXNativeTarget "StockManagerTests" */;
-			buildPhases = (
-				75FECC952D4A7F2C00F13120 /* Sources */,
-				75FECC962D4A7F2C00F13120 /* Frameworks */,
-				75FECC972D4A7F2C00F13120 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75FECC9B2D4A7F2C00F13120 /* PBXTargetDependency */,
-			);
-			name = StockManagerTests;
-			packageProductDependencies = (
-			);
-			productName = StockManagerTests;
-			productReference = 756363DD2D73856200C42A03 /* StockManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		75FECCA22D4A7F2C00F13120 /* StockManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75FECCB32D4A7F2C00F13120 /* Build configuration list for PBXNativeTarget "StockManagerUITests" */;
-			buildPhases = (
-				75FECC9F2D4A7F2C00F13120 /* Sources */,
-				75FECCA02D4A7F2C00F13120 /* Frameworks */,
-				75FECCA12D4A7F2C00F13120 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75FECCA52D4A7F2C00F13120 /* PBXTargetDependency */,
-			);
-			name = StockManagerUITests;
-			packageProductDependencies = (
-			);
-			productName = StockManagerUITests;
-			productReference = 756363DE2D73856200C42A03 /* StockManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +123,6 @@
 				TargetAttributes = {
 					75FECC852D4A7F2A00F13120 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					75FECC982D4A7F2C00F13120 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 75FECC852D4A7F2A00F13120;
-					};
-					75FECCA22D4A7F2C00F13120 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 75FECC852D4A7F2A00F13120;
 					};
 				};
 			};
@@ -222,8 +141,6 @@
 			projectRoot = "";
 			targets = (
 				75FECC852D4A7F2A00F13120 /* StockManager */,
-				75FECC982D4A7F2C00F13120 /* StockManagerTests */,
-				75FECCA22D4A7F2C00F13120 /* StockManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				756363C62D7382E500C42A03 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75FECC972D4A7F2C00F13120 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75FECCA12D4A7F2C00F13120 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,34 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75FECC952D4A7F2C00F13120 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75FECC9F2D4A7F2C00F13120 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		75FECC9B2D4A7F2C00F13120 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75FECC852D4A7F2A00F13120 /* StockManager */;
-			targetProxy = 75FECC9A2D4A7F2C00F13120 /* PBXContainerItemProxy */;
-		};
-		75FECCA52D4A7F2C00F13120 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75FECC852D4A7F2A00F13120 /* StockManager */;
-			targetProxy = 75FECCA42D4A7F2C00F13120 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		75FECCAB2D4A7F2C00F13120 /* Debug */ = {
@@ -416,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = StockManager.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -471,74 +348,6 @@
 			};
 			name = Release;
 		};
-		75FECCB12D4A7F2C00F13120 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MMD4KGB9S4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.chomusuke.StockManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockManager";
-			};
-			name = Debug;
-		};
-		75FECCB22D4A7F2C00F13120 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MMD4KGB9S4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.chomusuke.StockManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockManager";
-			};
-			name = Release;
-		};
-		75FECCB42D4A7F2C00F13120 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MMD4KGB9S4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.chomusuke.StockManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = StockManager;
-			};
-			name = Debug;
-		};
-		75FECCB52D4A7F2C00F13120 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MMD4KGB9S4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.chomusuke.StockManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = StockManager;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,24 +365,6 @@
 			buildConfigurations = (
 				75FECCAE2D4A7F2C00F13120 /* Debug */,
 				75FECCAF2D4A7F2C00F13120 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75FECCB02D4A7F2C00F13120 /* Build configuration list for PBXNativeTarget "StockManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75FECCB12D4A7F2C00F13120 /* Debug */,
-				75FECCB22D4A7F2C00F13120 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75FECCB32D4A7F2C00F13120 /* Build configuration list for PBXNativeTarget "StockManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75FECCB42D4A7F2C00F13120 /* Debug */,
-				75FECCB52D4A7F2C00F13120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
